@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" modified="2021-11-07T09:57:50.834Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="UxdnqEIeTW2IPKLtFkU2" version="15.7.0" type="github">
+  <diagram id="3ZkW6AQq7CZWCNLkpghV" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-1" value="시작" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="430" as="sourcePoint" />
+            <mxPoint x="410" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-9" value="메뉴 개수&amp;gt;조사완료 메뉴" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" target="7JSH-HqtldK7_LLC1h3l-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-12" target="7JSH-HqtldK7_LLC1h3l-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-12" value="학습시키기" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;한 메뉴에 대한 학습 데이터 투입&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;(by. selenium)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="680" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-15" target="7JSH-HqtldK7_LLC1h3l-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-15" value="사진의 총 개수&amp;gt;조사 완료된 사진의 수" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="950" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-19" target="7JSH-HqtldK7_LLC1h3l-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-19" value="사진 투입&lt;br style=&quot;font-size: 14px;&quot;&gt;(by. selenium)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-21" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-22" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-24" target="7JSH-HqtldK7_LLC1h3l-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-24" value="출력된 유사도 끌고 오기&lt;br style=&quot;font-size: 14px;&quot;&gt;(By. request&amp;amp;beautifulsoup)" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.067;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" target="7JSH-HqtldK7_LLC1h3l-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="992" as="sourcePoint" />
+            <mxPoint x="190" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-29" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.05;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1360" as="sourcePoint" />
+            <mxPoint x="190" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="1433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-30" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="7JSH-HqtldK7_LLC1h3l-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="550" as="sourcePoint" />
+            <mxPoint x="440" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="7JSH-HqtldK7_LLC1h3l-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="550" as="sourcePoint" />
+            <mxPoint x="730" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-33" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-9" target="7JSH-HqtldK7_LLC1h3l-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="140" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-36" value="리스트 자료 정보화&lt;br style=&quot;font-size: 14px;&quot;&gt;(유사도별로 독립된 숫자가 되어있는 percentage를 하나의 percentage로 정리)&lt;br style=&quot;font-size: 14px;&quot;&gt;(numpy 이용)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="480" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-37" value="출력된 유사도를 메뉴별 리스트에 저장" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1400" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-39" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="70" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-43" target="7JSH-HqtldK7_LLC1h3l-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-43" value="사람마다 먹은 정도를 정규분포 그래프로 그려 정리&lt;br style=&quot;font-size: 14px;&quot;&gt;(by. matplotlib)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="7JSH-HqtldK7_LLC1h3l-44" target="7JSH-HqtldK7_LLC1h3l-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-44" value="그래프 사진 저장" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="820" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7JSH-HqtldK7_LLC1h3l-46" value="끝" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
