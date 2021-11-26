@@ -20,7 +20,8 @@ URL = 'https://teachablemachine.withgoogle.com/train/image'
 options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options)
-wait = WebDriverWait(driver, 10)
+driver.implicitly_wait(10) # seconds
+# wait = WebDriverWait(driver, 10)
 
 menu={
     "day1":["egg","kimchi","namul","rice","soup"],
@@ -36,20 +37,20 @@ for key in menu:
     menukey=0
     for food in menu[key]:
         driver.get(url=URL)
-        add_class=wait.until(EC.element_to_be_clickable((By.ID, 'add-classes')))#class 추가
+        add_class=driver.find_element_by_class_name('add-classes')#class 추가
         for a in range(3):
             add_class.click()
         for percent in range(0,101,25):
             file_path=os.listdir('C:₩₩Users₩₩이채은₩₩OneDrive₩₩바탕 화면₩₩포트폴리오₩₩codingcoding₩₩project₩₩studydata_'+key+"₩"+food+str(percent)) #폴더안의 파일 주소 가져오기
-            upload_=wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#sample-input-list > button:nth-child(2)")))
+            upload_=driver.find_element_by_css_selector("#sample-input-list > button:nth-child(2)")
             upload_.click()
-            studydata_input=wait.until(EC.element_to_be_clickable((By.ID, "file-input")))
+            studydata_input=driver.find_element_by_id("file-input")
             for study in file_path:
                 studydata_input.send_keys(study)
-        start_study=wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#container > tm-button")))
-        select = Select(wait.until(EC.element_to_be_clickable((By.ID, 'select-input'))))
+        start_study=driver.find_element_by_css_selector("#container > tm-button")
+        select = driver.find_element_by_id('select-input')
         select.select_by_visible_text("파일")
-        sikpan_upload=driver.find_element_by_id(file-input) #결과도출&리스트 저장
+        sikpan_upload=driver.find_element_by_id('file-input') #결과도출&리스트 저장
         sikpan_pic_path=os.listdir(".₩₩Users₩₩이채은₩₩OneDrive₩₩바탕 화면₩₩포트폴리오codingcoding₩₩project₩₩studydata_₩₩sikpan_"+key+"₩₩"+food)
         for file in sikpan_pic_path:
             sikpan_upload.send_key(file)
