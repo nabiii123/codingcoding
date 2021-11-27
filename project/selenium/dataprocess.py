@@ -13,7 +13,7 @@ import os
 #__________________________________
 
 #element = wait.until(EC.element_to_be_clickable((By.ID, 'someid')))
-
+# wait = WebDriverWait(driver, 10)
 
 URL = 'https://teachablemachine.withgoogle.com/train/image'
 
@@ -21,7 +21,6 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(10) # seconds
-# wait = WebDriverWait(driver, 10)
 
 menu={
     "day1":["egg","kimchi","namul","rice","soup"],
@@ -68,24 +67,24 @@ for key in menu_result:
 
 print(menu_result)
 
-#############################################여기부터 colab으로 이동#######
+######여기부터 colab으로 이동#######
 
-# import numpy as np
-# import pandas as pd
-# import matplotlib.pyplot as plot
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plot
 
-# #단일 값 만들기
-# for key in menu_result:
-#     for n in key:
-#         np_array=np.array(n)
-#         sum_array=np_array.sum(axis=1)
-#         target_array=sum_array/100
+#단일 값 만들기
+for key in menu_result:
+    for n in key:
+        np_array=np.array(n)
+        sum_array=np_array.sum(axis=1)
+        target_array=sum_array/100
 
-# #정규분포 그리기&저장
-# for key in menu_result:
-#     menukey=0
-#     for n in key:
-#         plt.title(menu[key][menukey]+"의 잔반")
-#         plt.hist(n)
-#         menukey=menukey+1
-#         plt.savefig('.₩₩'+menu[key][menukey]+'sin.png')
+#정규분포 그리기&저장
+for key in menu_result:
+    menukey=0
+    for n in key:
+        plt.title(menu[key][menukey]+"의 잔반")
+        plt.hist(n)
+        menukey=menukey+1
+        plt.savefig('.₩₩'+menu[key][menukey]+'sin.png')
