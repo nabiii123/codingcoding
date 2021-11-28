@@ -48,14 +48,11 @@ for key in menu:
 
         for percent in range(0,101,25):
             file_path=os.listdir('C:/Users/이채은/OneDrive/바탕 화면/포트폴리오/codingcoding/project/studydata_'+key+"/"+food+"/"+str(percent)) #폴더안의 파일 주소 가져오기
-            r='#classifier-list > tm-classifier-drawer:nth-child('+str(menukey+1)+')'
-            print(r)
-            root3 = shadow_element(root2, 'tm-classifier-drawer:nth-child('+str(menukey+1)+')')
+            root3 = shadow_element(root1, 'tm-classifier-drawer:nth-child('+str(menukey+1)+')')
             upload_=shadow_element(root3, '#sample-input-list > button:nth-child(2)')
-            upload_.click()
-
-            exit_button=shadow_element(root3,'#exit-button')
+            upload_.send_keys('\n')
             root4=shadow_element(root3,'tm-file-sample-input')
+            exit_button=shadow_element(root3,'#exit-button')
             studydata_input=shadow_element(root4,'#file-input')
             for study in file_path:
                 studydata_input.send_keys(study)
